@@ -1,1 +1,103 @@
-<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><link href="./assets/prod/PNovaReg.woff2" type="font/woff2" crossorigin><link href="./assets/prod/PNovaLight.woff2" type="font/woff2" crossorigin><script src="./assets/prod/uikit.min.js"></script><script src="./assets/prod/uikit-icons.min.js"></script><title>Document</title><link href="./css/main.db0f87f38859cbe681b6.css" rel="stylesheet"></head><body><div class="wraper"><nav class="uk-navbar uk-navbar-container uk-margin"><div class="uk-navbar-right"><a class="uk-navbar-toggle a-not" uk-toggle="target: #offcanvas-slide" uk-navbar-toggle-icon href="#"></a></div></nav><div class="main"><div class="uk-overlay-default uk-position-cover fon"></div><div class="uk-card uk-card-default item-card"><span class="edit" uk-icon="icon: more-vertical; ratio: 1.2"></span><div class="cancel-edit"></div><div class="item-name">111</div><div class="item-adress">г.Слоним</div><div class="vendor hidden">Виватон</div><div class="to-time-left"></div><div class="item-ksa">19219296</div><input type="date" class="to-date hidden" value="" min="2020-01-01"></div><div class="uk-card uk-card-default item-card"><span class="edit" uk-icon="icon: more-vertical; ratio: 1.2"></span><div class="cancel-edit"></div><div class="item-name">111</div><div class="item-adress">г.<слоним></слоним></div><div class="vendor hidden">Виватон</div><div class="to-time-left"></div><div class="item-ksa">19219297</div><input type="date" class="to-date hidden" value="" min="2020-01-01"></div></div><div id="out" class="main"><div class="uk-overlay-default uk-position-cover fon"></div></div><div id="offcanvas-slide" uk-offcanvas="overlay: true"><div class="uk-offcanvas-bar"><button class="uk-offcanvas-close" type="button" uk-close></button><h3>Title</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></div></div><script type="text/javascript" src="./js/main.db0f87f38859cbe681b6.js"></script></body><script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script></html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./assets/prod/PNovaReg.woff2" type="font/woff2" crossorigin>
+    <link href="./assets/prod/PNovaLight.woff2" type="font/woff2" crossorigin>
+    
+    
+    <script src="./assets/prod/uikit.min.js"></script>
+    <script src="./assets/prod/uikit-icons.min.js"></script>
+    <title>Document</title>
+
+   
+<link href="./css/vendors~main.11af9c971eec97b16b13.css" rel="stylesheet"><link href="./css/main.11af9c971eec97b16b13.css" rel="stylesheet"></head>
+<body>
+    <div class="wraper">
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <nav class="uk-navbar uk-navbar-container uk-margin">
+        <div class="uk-navbar-left">
+            <span class="uk-icon add-new-but" uk-icon="icon: plus; ratio: 1.2"></span>        </div>
+        <div class="uk-navbar-right">
+            <a class="uk-navbar-toggle a-not" uk-toggle="target: #offcanvas-slide" uk-navbar-toggle-icon href="#"></a>
+        </div>
+    </nav>
+    </div>
+
+
+
+<div class="add-new-wrapper">
+
+    <div class="uk-overlay-default uk-position-cover new-fon"></div>
+    <div class="uk-card uk-card-default item-card-new item-card uk-transition-slide-right">
+        <span class="save-new" uk-icon="icon: check; ratio: 1.2"></span>
+        <div class="cancel-new" uk-icon="icon: close; ratio: 1.5"></div>
+        
+
+        
+    
+        <form class="uk-form-stacked">
+            <div class="uk-margin new-input">
+                <label class="uk-form-label" for="form-stacked-text">Вендор</label>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+                </div>
+            </div>
+            <div class="uk-margin new-input">
+                <label class="uk-form-label" for="form-stacked-text">КСА</label>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+                </div>
+            </div>
+
+            <div class="uk-margin new-input">
+                <label class="uk-form-label" for="form-stacked-text">Адрес</label>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+                </div>
+            </div>
+
+            <div class="uk-margin new-input">
+                <label class="uk-form-label" for="form-stacked-text">Объект</label>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Виватон 26">
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div> 
+
+<div id="out" class="main">
+
+    <div class="uk-overlay-default uk-position-cover fon"></div>
+</div>
+
+
+<div id="offcanvas-slide" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+    </div>
+</div>
+
+<div id="edit-modal" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <h5 class="edit-modal-title"></h5>
+        <p class="uk-text-right">
+            <button id="edit-modal-yes" class="uk-button uk-button-default" type="button">Ок</button>
+            <button id="edit-modal-no" class="uk-button uk-button-primary uk-modal-close" type="button">Отмена</button>
+        </p>
+    </div>
+</div>
+</div>   
+<script type="text/javascript" src="./js/vendors~main.11af9c971eec97b16b13.js"></script><script type="text/javascript" src="./js/main.11af9c971eec97b16b13.js"></script></body>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+</html>
