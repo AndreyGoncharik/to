@@ -13,7 +13,7 @@
     <title>Document</title>
 
    
-<link href="./css/vendors~main.11af9c971eec97b16b13.css" rel="stylesheet"><link href="./css/main.11af9c971eec97b16b13.css" rel="stylesheet"></head>
+<link href="./css/vendors~main.48485b628b6e4146c2cc.css" rel="stylesheet"><link href="./css/main.48485b628b6e4146c2cc.css" rel="stylesheet"></head>
 <body>
     <div class="wraper">
     <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
@@ -34,11 +34,17 @@
     <div class="uk-card uk-card-default item-card-new item-card uk-transition-slide-right">
         <span class="save-new" uk-icon="icon: check; ratio: 1.2"></span>
         <div class="cancel-new" uk-icon="icon: close; ratio: 1.5"></div>
-        
+        <h4>Добавить КСА:</h4>
 
         
     
         <form class="uk-form-stacked">
+            <div class="uk-margin new-input">
+                <label class="uk-form-label" for="form-stacked-text">КСА</label>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+                </div>
+            </div>
             <div class="uk-margin new-input">
                 <label class="uk-form-label" for="form-stacked-text">Вендор</label>
                 <div class="uk-form-controls">
@@ -46,19 +52,11 @@
                 </div>
             </div>
             <div class="uk-margin new-input">
-                <label class="uk-form-label" for="form-stacked-text">КСА</label>
-                <div class="uk-form-controls">
-                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
-                </div>
-            </div>
-
-            <div class="uk-margin new-input">
                 <label class="uk-form-label" for="form-stacked-text">Адрес</label>
                 <div class="uk-form-controls">
                     <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
                 </div>
             </div>
-
             <div class="uk-margin new-input">
                 <label class="uk-form-label" for="form-stacked-text">Объект</label>
                 <div class="uk-form-controls">
@@ -96,8 +94,17 @@
         </p>
     </div>
 </div>
+<div id="alert" class="uk-transition-slide-right">
+    <div id="alert-text" class="alert-text"></div>
+    <div id="alert-close" class="alert-close">
+        <section class="close-loader">  
+            <svg class="circle" xmlns="http://www.w3.org/2000/svg"><g> <ellipse class="foreground" ry="15" rx="15" cy="16" cx="16" stroke-width="2"/><line class="line line1" x1="6" y1="16" x2="26" y2="16"/>
+            <line class="line line2" x1="6" y1="16" x2="26" y2="16"/></g></svg>
+            </section>
+    </div>
+</div>
 </div>   
-<script type="text/javascript" src="./js/vendors~main.11af9c971eec97b16b13.js"></script><script type="text/javascript" src="./js/main.11af9c971eec97b16b13.js"></script></body>
+<script type="text/javascript" src="./js/vendors~main.48485b628b6e4146c2cc.js"></script><script type="text/javascript" src="./js/main.48485b628b6e4146c2cc.js"></script></body>
 <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
 
 </html>
