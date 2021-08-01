@@ -13,7 +13,7 @@
     <title>Document</title>
 
    
-<link href="./css/vendors~main.48485b628b6e4146c2cc.css" rel="stylesheet"><link href="./css/main.48485b628b6e4146c2cc.css" rel="stylesheet"></head>
+<link href="./css/vendors~main.a24e3b15274b000f52f7.css" rel="stylesheet"><link href="./css/main.a24e3b15274b000f52f7.css" rel="stylesheet"></head>
 <body>
     <div class="wraper">
     <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
@@ -25,8 +25,6 @@
         </div>
     </nav>
     </div>
-
-
 
 <div class="add-new-wrapper">
 
@@ -75,15 +73,19 @@
 
 
 <div id="offcanvas-slide" uk-offcanvas="overlay: true">
+        <section id="canvas-close" class="close-loader uk-transition-slide-right">  
+            <svg class="circle" xmlns="http://www.w3.org/2000/svg"><g> <ellipse class="foreground" ry="15" rx="15" cy="16" cx="16" stroke-width="2"/><line class="line line1" x1="6" y1="16" x2="26" y2="16"/>
+            <line class="line line2" x1="6" y1="16" x2="26" y2="16"/></g></svg>
+        </section>
     <div class="uk-offcanvas-bar">
-
-        <button class="uk-offcanvas-close" type="button" uk-close></button>
-
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+        <div class="canvas-buttons">
+            <button class="uk-button uk-button-primary">Primary</button>
+            <button class="uk-button uk-button-primary">Primary</button>
+            <button class="uk-button uk-button-primary">Переместит элементы</button>
+        </div>
     </div>
 </div>
+
 
 <div id="edit-modal" uk-modal>
     <div class="uk-modal-dialog uk-modal-body">
@@ -100,11 +102,11 @@
         <section class="close-loader">  
             <svg class="circle" xmlns="http://www.w3.org/2000/svg"><g> <ellipse class="foreground" ry="15" rx="15" cy="16" cx="16" stroke-width="2"/><line class="line line1" x1="6" y1="16" x2="26" y2="16"/>
             <line class="line line2" x1="6" y1="16" x2="26" y2="16"/></g></svg>
-            </section>
+        </section>
     </div>
 </div>
 </div>   
-<script type="text/javascript" src="./js/vendors~main.48485b628b6e4146c2cc.js"></script><script type="text/javascript" src="./js/main.48485b628b6e4146c2cc.js"></script></body>
+<script type="text/javascript" src="./js/vendors~main.a24e3b15274b000f52f7.js"></script><script type="text/javascript" src="./js/main.a24e3b15274b000f52f7.js"></script></body>
 <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
 
 </html>
