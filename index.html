@@ -13,7 +13,7 @@
     <title>Document</title>
 
    
-<link href="./css/vendors~main.a24e3b15274b000f52f7.css" rel="stylesheet"><link href="./css/main.a24e3b15274b000f52f7.css" rel="stylesheet"></head>
+<link href="./css/vendors~main.0b36e4326d4826c7ff55.css" rel="stylesheet"><link href="./css/main.0b36e4326d4826c7ff55.css" rel="stylesheet"></head>
 <body>
     <div class="wraper">
     <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
@@ -44,21 +44,21 @@
                 </div>
             </div>
             <div class="uk-margin new-input">
-                <label class="uk-form-label" for="form-stacked-text">Вендор</label>
+                <label class="uk-form-label" for="form-stacked-text1">Вендор</label>
                 <div class="uk-form-controls">
-                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+                    <input class="uk-input" id="form-stacked-text1" type="text" placeholder="Some text...">
                 </div>
             </div>
             <div class="uk-margin new-input">
-                <label class="uk-form-label" for="form-stacked-text">Адрес</label>
+                <label class="uk-form-label" for="form-stacked-text2">Адрес</label>
                 <div class="uk-form-controls">
-                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+                    <input class="uk-input" id="form-stacked-text2" type="text" placeholder="Some text...">
                 </div>
             </div>
             <div class="uk-margin new-input">
-                <label class="uk-form-label" for="form-stacked-text">Объект</label>
+                <label class="uk-form-label" for="form-stacked-text3">Объект</label>
                 <div class="uk-form-controls">
-                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Виватон 26">
+                    <input class="uk-input" id="form-stacked-text3" type="text" placeholder="Виватон 26">
                 </div>
             </div>
 
@@ -67,6 +67,7 @@
 </div> 
 
 <div id="out" class="main">
+
 
     <div class="uk-overlay-default uk-position-cover fon"></div>
 </div>
@@ -80,7 +81,18 @@
     <div class="uk-offcanvas-bar">
         <div class="canvas-buttons">
             <button class="uk-button uk-button-primary">Primary</button>
-            <button class="uk-button uk-button-primary">Primary</button>
+            <hr class="divider">
+            <div class="canvas-togle-groupe" uk-toggle="target: #toggle-canvas-button-group; animation: uk-animation-slide-top; cls: hidden; duration: 300;">
+                <h5>Добавить / удалить группу</h5>
+                <span class="uk-icon" uk-icon="icon: chevron-down; ratio: 1"></span>
+            </div>
+            <div id="toggle-canvas-button-group" class="hidden uk-animation-slide-top">
+                <button id="newGroupButton" class="uk-button uk-button-primary">Добавить группу</button>
+                <button id="delGroupButton" class="uk-button uk-button-primary">Удалить группу</button>
+                <input id="inpupNewGroup" type="text" class="hidden uk-transition-slide-right">
+            </div>
+            <hr class="divider">
+
             <button class="uk-button uk-button-primary">Переместит элементы</button>
         </div>
     </div>
@@ -106,7 +118,7 @@
     </div>
 </div>
 </div>   
-<script type="text/javascript" src="./js/vendors~main.a24e3b15274b000f52f7.js"></script><script type="text/javascript" src="./js/main.a24e3b15274b000f52f7.js"></script></body>
+<script type="text/javascript" src="./js/vendors~main.0b36e4326d4826c7ff55.js"></script><script type="text/javascript" src="./js/main.0b36e4326d4826c7ff55.js"></script></body>
 <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
 
 </html>
