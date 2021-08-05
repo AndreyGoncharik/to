@@ -13,7 +13,7 @@
     <title>Document</title>
 
    
-<link href="./css/vendors~main.0b36e4326d4826c7ff55.css" rel="stylesheet"><link href="./css/main.0b36e4326d4826c7ff55.css" rel="stylesheet"></head>
+<link href="./css/vendors~main.4e477500f6d9ad5ee309.css" rel="stylesheet"><link href="./css/main.4e477500f6d9ad5ee309.css" rel="stylesheet"></head>
 <body>
     <div class="wraper">
     <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
@@ -66,11 +66,12 @@
     </div>
 </div> 
 
+
 <div id="out" class="main">
-
-
-    <div class="uk-overlay-default uk-position-cover fon"></div>
+    <div class="uk-overlay-default uk-position-cover fon"></div>   
 </div>
+
+
 
 
 <div id="offcanvas-slide" uk-offcanvas="overlay: true">
@@ -80,7 +81,7 @@
         </section>
     <div class="uk-offcanvas-bar">
         <div class="canvas-buttons">
-            <button class="uk-button uk-button-primary">Primary</button>
+            <button id="test" class="uk-button uk-button-primary">Primary</button>
             <hr class="divider">
             <div class="canvas-togle-groupe" uk-toggle="target: #toggle-canvas-button-group; animation: uk-animation-slide-top; cls: hidden; duration: 300;">
                 <h5>Добавить / удалить группу</h5>
@@ -89,7 +90,11 @@
             <div id="toggle-canvas-button-group" class="hidden uk-animation-slide-top">
                 <button id="newGroupButton" class="uk-button uk-button-primary">Добавить группу</button>
                 <button id="delGroupButton" class="uk-button uk-button-primary">Удалить группу</button>
-                <input id="inpupNewGroup" type="text" class="hidden uk-transition-slide-right">
+                <div id="inpupNewGroup" class="hidden uk-transition-slide-right">
+                    <input id="inputToLsNewGroup" type="text">
+                    <span id="cancelToLsNewGroup" class="uk-icon" uk-icon="icon: close; ratio: 1.4"></span>
+                    <span id="addToLsNewGroup" class="uk-icon" uk-icon="icon: check; ratio: 1.4"></span>                
+                </div>
             </div>
             <hr class="divider">
 
@@ -118,7 +123,7 @@
     </div>
 </div>
 </div>   
-<script type="text/javascript" src="./js/vendors~main.0b36e4326d4826c7ff55.js"></script><script type="text/javascript" src="./js/main.0b36e4326d4826c7ff55.js"></script></body>
+<script type="text/javascript" src="./js/vendors~main.4e477500f6d9ad5ee309.js"></script><script type="text/javascript" src="./js/main.4e477500f6d9ad5ee309.js"></script></body>
 <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
 
 </html>
